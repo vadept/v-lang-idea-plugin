@@ -1,0 +1,18 @@
+// TODO: this is a Sample file - To refactor to match vlang
+{
+  parserClass="org.vadept.language.parser.VLangParser"
+
+  extends="com.intellij.extapi.psi.ASTWrapperPsiElement"
+
+  psiClassPrefix="VLang"
+  psiImplClassSuffix="Impl"
+  psiPackage="org.vadept.language.psi"
+  psiImplPackage="org.vadept.language.psi.impl"
+
+  elementTypeHolderClass="org.vadept.language.psi.VLangTypes"
+  elementTypeClass="org.vadept.language.psi.VLangElementType"
+  tokenTypeClass="org.vadept.language.psi.VLangTokenType"
+
+
+}
+

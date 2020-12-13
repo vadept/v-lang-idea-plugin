@@ -1,0 +1,41 @@
+<idea-plugin>
+  <id>org.vadept.language</id>
+  <name>V-Language-Idea</name>
+  <version>1.0</version>
+  <vendor email="lx-dev-pm@pm.me" url="https://github.com/vadept">V-Adept</vendor>
+
+  <!-- Product and plugin compatibility requirements -->
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.java</depends>
+
+  <description><![CDATA[
+      Support the vlang for intellij IDEA<br>
+      <a href="https://vlang.io/">v-lang</a>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <ul>
+        <li>Syntax colors</li>
+        <li>Reformat code</li>
+      </ul>
+    ]]>
+  </change-notes>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="201.0"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <fileType name="V File" implementationClass="org.vadept.language.VLangFileType"
+      fieldName="INSTANCE" language="V" extensions="v"/>
+    <lang.parserDefinition language="V" implementationClass="org.vadept.language.VLangParserDefinition"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>

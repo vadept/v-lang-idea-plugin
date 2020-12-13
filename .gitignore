@@ -1,0 +1,8 @@
+# Gradle
+.gradle
+
+# build
+build
+
+jflex-*.jar
+idea-flex.skeleton
