@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>org.vadept.language</id>
-  <name>V-Language-Idea</name>
-  <version>1.0</version>
+  <name>V-Lang-Idea</name>
+  <version>0.0.1</version>
   <vendor email="lx-dev-pm@pm.me" url="https://github.com/vadept">V-Adept</vendor>
 
   <!-- Product and plugin compatibility requirements -->
@@ -9,8 +9,14 @@
   <depends>com.intellij.java</depends>
 
   <description><![CDATA[
-      Support the vlang for intellij IDEA<br>
-      <a href="https://vlang.io/">v-lang</a>
+      Support the <a href="https://vlang.io/">vlang</a> for intellij IDEA<br>
+      <br>
+      Support provided by the <a href="https://github.com/vadept">V-Adept</a> dev team <br>
+      <br>
+      <ul>
+        <li>status: <b>WORK IN PROGRESS</b></li>
+      </ul>
+
     ]]></description>
 
   <change-notes><![CDATA[
