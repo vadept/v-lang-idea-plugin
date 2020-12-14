@@ -13,6 +13,27 @@
   elementTypeClass="org.vadept.language.psi.VLangElementType"
   tokenTypeClass="org.vadept.language.psi.VLangTokenType"
 
+  tokens=[
+    mod_text='module'
+    identifier='regexp:\p{Alpha}\w*'
+  ]
 
 }
 
+VLangFile ::= moduleClause*
+
+// TODO: module section
+moduleClause ::= module identifier
+
+// TODO: imports section
+
+// TODO: structures section
+
+// TODO: enums section
+
+// TODO: functions section
+
+// TODO: if / for sections
+
+// TODO: expression section
+item ::=
